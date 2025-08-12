@@ -154,7 +154,7 @@ const useTodos = () => {
     addTodo,
     toggleTodo,
     deleteTodo,
-    editTodo,
+    updateTodo,
     setPriority,
     clearCompleted,
     completeAll,
