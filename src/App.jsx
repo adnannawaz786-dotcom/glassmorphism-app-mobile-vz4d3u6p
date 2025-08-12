@@ -2,7 +2,7 @@ import React from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import TodoList from './components/TodoList';
 import TodoForm from './components/TodoForm';
-import { useTodos } from './hooks/useTodos';
+import useTodos from './hooks/useTodos';
 import './styles/global.css';
 
 function App() {
