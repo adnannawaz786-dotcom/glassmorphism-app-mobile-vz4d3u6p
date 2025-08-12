@@ -59,7 +59,7 @@ const useTodos = () => {
   };
 
   // Edit todo text
-  const editTodo = (id, newText) => {
+  const updateTodo = (id, newText) => {
     if (!newText.trim()) return;
     
     setTodos(prevTodos =>
